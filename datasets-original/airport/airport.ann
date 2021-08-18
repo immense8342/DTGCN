@@ -1,0 +1,1035 @@
+T1	Name 0 9	﻿上海虹桥国际机场
+T2	Name 11 19	上海虹桥国际机场
+T3	Name 20 59	Shanghai Hongqiao International Airport
+*	Alias T2 T3
+T4	Position 82 97	中国上海市长宁区和闵行区交界处
+T5	Evaluate 108 117	4E级民用国际机场
+T6	Evaluate 138 146	国际定期航班机场
+T7	Evaluate 147 167	对外开放的一类航空口岸和国际航班备降机场
+T8	Name 175 183	上海虹桥国际机场
+T9	Facilities 225 235	2号航站楼及第二跑道
+T10	Facilities 244 249	1号航站楼
+T11	Facilities 252 257	东交通中心
+R1	HaveFac Arg1:T8 Arg2:T9	
+R2	HaveFac Arg1:T8 Arg2:T10	
+R3	HaveFac Arg1:T8 Arg2:T11	
+T12	Name 284 292	上海虹桥国际机场
+T13	Facilities 303 306	航站楼
+T14	Facilities 326 328	跑道
+R4	HaveFac Arg1:T12 Arg2:T13	
+R5	HaveFac Arg1:T12 Arg2:T14	
+T15	Name 390 398	上海虹桥国际机场
+T16	Name 578 586	上海虹桥国际机场
+T17	Facilities 586 591	1号航站楼
+R6	HaveFac Arg1:T16 Arg2:T17	
+T18	Name 809 817	上海虹桥国际机场
+T19	Facilities 817 822	2号航站楼
+R7	HaveFac Arg1:T18 Arg2:T19	
+T20	Name 1108 1116	上海虹桥国际机场
+T21	Facilities 1127 1129	跑道
+R8	HaveFac Arg1:T20 Arg2:T21	
+T22	Name 1220 1228	上海虹桥国际机场
+T23	Facilities 1228 1233	公务机基地
+R9	HaveFac Arg1:T22 Arg2:T23	
+T24	Name 1406 1414	上海虹桥国际机场
+T25	Company 1415 1421	中国东方航空
+T26	Company 1429 1433	上海航空
+T27	Company 1434 1438	春秋航空
+T28	Company 1446 1450	吉祥航空
+R10	HavCom Arg1:T24 Arg2:T25	
+R11	HavCom Arg1:T24 Arg2:T26	
+R12	HavCom Arg1:T24 Arg2:T27	
+R13	HavCom Arg1:T24 Arg2:T28	
+T29	Name 1582 1590	上海浦东国际机场
+T30	Name 1592 1600	上海浦东国际机场
+T31	Name 1601 1638	Shanghai Pudong International Airport
+T32	Position 1665 1674	中国上海市浦东新区
+T33	Evaluate 1688 1695	4F级民用机场
+T34	Evaluate 1697 1732	中国三大门户复合枢纽之一 [1]  、长三角地区国际航空货运枢纽群成员
+T35	Evaluate 1747 1758	华东区域第一大枢纽机场
+T36	Evaluate 1759 1763	门户机场
+*	Alias T30 T31
+R14	Located Arg1:T30 Arg2:T32	
+R15	Evaluate Arg1:T30 Arg2:T33	
+R16	Evaluate Arg1:T30 Arg2:T35	
+R17	Evaluate Arg1:T30 Arg2:T36	
+T37	Name 1772 1780	上海浦东国际机场
+T38	Facilities 1818 1822	第二跑道
+T39	Facilities 1837 1847	第二航站楼及第三跑道
+R18	HaveFac Arg1:T37 Arg2:T38	
+R19	HaveFac Arg1:T37 Arg2:T39	
+T40	Name 1892 1896	浦东机场
+T41	Facilities 1899 1902	航站楼
+T42	Facilities 1941 1943	跑道
+T43	Facilities 1905 1908	货运区
+R20	HaveFac Arg1:T40 Arg2:T41	
+R21	HaveFac Arg1:T40 Arg2:T43	
+R22	HaveFac Arg1:T40 Arg2:T42	
+T44	Name 1990 1994	浦东机场
+T45	Name 2062 2066	浦东机场
+T46	Name 2212 2216	浦东机场
+T47	Facilities 2216 2221	第一航站楼
+R23	HaveFac Arg1:T46 Arg2:T47	
+T48	Facilities 2247 2252	第一航站楼
+T49	Name 2723 2729	浦东国际机场
+T50	Facilities 2749 2754	第二航站楼
+T51	Facilities 2755 2759	第三跑道
+R24	HaveFac Arg1:T49 Arg2:T50	
+R25	HaveFac Arg1:T49 Arg2:T51	
+T52	Name 2785 2791	浦东国际机场
+T53	Facilities 2804 2809	第二航站楼
+R26	HaveFac Arg1:T52 Arg2:T53	
+T54	Name 2987 2991	浦东机场
+T55	Facilities 2991 2995	第三跑道
+R27	HaveFac Arg1:T54 Arg2:T55	
+T56	Name 3147 3155	上海浦东国际机场
+T57	Name 3157 3165	上海浦东国际机场
+T58	Name 3171 3175	浦东机场
+T59	Facilities 3175 3178	南机坪
+R28	HaveFac Arg1:T58 Arg2:T59	
+T60	Facilities 3192 3195	东机坪
+R29	HaveFac Arg1:T58 Arg2:T60	
+T61	Name 3485 3489	浦东机场
+T62	Name 3461 3469	上海浦东国际机场
+T63	Name 3471 3479	上海浦东国际机场
+T64	Name 3561 3565	浦东机场
+T65	Facilities 3489 3494	T1航站楼
+R30	HaveFac Arg1:T61 Arg2:T65	
+T66	Facilities 3565 3569	第四跑道
+R31	HaveFac Arg1:T64 Arg2:T66	
+T67	Name 3620 3624	浦东机场
+T68	Facilities 3624 3628	第四跑道
+R32	HaveFac Arg1:T67 Arg2:T68	
+T69	Name 3655 3659	浦东机场
+T70	Company 3660 3666	中国东方航空
+T71	Company 3674 3678	上海航空
+T72	Company 3686 3690	吉祥航空
+T73	Company 3698 3702	春秋航空
+T74	Company 3717 3723	中国南方航空
+T75	Company 3731 3737	中国国际航空
+R33	HavCom Arg1:T69 Arg2:T70	
+R34	HavCom Arg1:T69 Arg2:T71	
+R35	HavCom Arg1:T69 Arg2:T72	
+R36	HavCom Arg1:T69 Arg2:T73	
+R37	HavCom Arg1:T69 Arg2:T74	
+R38	HavCom Arg1:T69 Arg2:T75	
+T76	Name 3917 3925	南京禄口国际机场
+T77	Name 3890 3898	上海浦东国际机场
+T78	Name 3927 3935	南京禄口国际机场
+T79	Name 3936 3971	Nanjing Lukou International Airport
+*	Alias T78 T79
+T80	Position 3994 4004	南京市江宁区禄口街道
+T81	Evaluate 4006 4016	江苏省和南京市的门户
+R39	Located Arg1:T78 Arg2:T80	
+R40	Evaluate Arg1:T78 Arg2:T81	
+T82	Evaluate 4018 4045	国家主要干线机场、一类航空口岸，华东地区的主要货运机场
+R41	Evaluate Arg1:T78 Arg2:T82	
+T83	Evaluate 4053 4070	上海虹桥机场、浦东机场互为备降机场
+R42	Evaluate Arg1:T78 Arg2:T83	
+T84	Evaluate 4078 4102	国家大型枢纽机场、中国航空货物中心和快件集散中心
+T85	Evaluate 4109 4117	国家区域交通枢纽
+R43	Evaluate Arg1:T78 Arg2:T84	
+R44	Evaluate Arg1:T78 Arg2:T85	
+T86	Name 4127 4135	南京禄口国际机场
+T87	Name 4313 4321	南京禄口国际机场
+T88	Facilities 4329 4331	跑道
+T89	Facilities 4334 4337	航站楼
+T90	Facilities 4340 4343	货运站
+T91	Facilities 4346 4350	交通中心
+R45	HaveFac Arg1:T87 Arg2:T88	
+R46	HaveFac Arg1:T87 Arg2:T89	
+R47	HaveFac Arg1:T87 Arg2:T90	
+R48	HaveFac Arg1:T87 Arg2:T91	
+T92	Name 4460 4468	南京禄口国际机场
+T93	Name 4585 4593	南京禄口国际机场
+T94	Facilities 4593 4598	T1航站楼
+R49	HaveFac Arg1:T93 Arg2:T94	
+T95	Name 2148 2152	浦东机场
+T96	Name 4632 4640	南京禄口国际机场
+T97	Facilities 4671 4677	机场货运仓库
+T98	Facilities 4647 4650	候机楼
+R50	HaveFac Arg1:T96 Arg2:T98	
+R51	HaveFac Arg1:T96 Arg2:T97	
+T99	Facilities 4826 4831	T1航站楼
+T100	Facilities 4880 4884	货运仓库
+T101	Facilities 4968 4973	T1航站楼
+T102	Facilities 5141 5146	T2航站楼
+T103	Facilities 5265 5270	T2航站楼
+T104	Facilities 5393 5398	T2航站楼
+T105	Facilities 5670 5675	T2航站楼
+T106	Facilities 5903 5907	停车大楼
+T107	Facilities 6042 6046	交通中心
+T108	Facilities 6172 6178	南京集散中心
+T109	Name 6424 6430	南京禄口机场
+T110	Facilities 6430 6436	国际快件中心
+T111	Name 6466 6474	南京禄口国际机场
+R52	HaveFac Arg1:T109 Arg2:T110	
+T112	Name 6797 6801	禄口机场
+T113	Company 6802 6814	中国东方航空江苏有限公司
+T114	Company 6815 6824	深圳航空江苏分公司
+T115	Company 6825 6831	吉祥航空公司
+T116	Company 6832 6842	中国邮政货运航空公司
+R53	HavCom Arg1:T112 Arg2:T113	
+R54	HavCom Arg1:T112 Arg2:T114	
+R55	HavCom Arg1:T112 Arg2:T115	
+R56	HavCom Arg1:T112 Arg2:T116	
+T117	Name 6996 7000	禄口机场
+T118	Name 7109 7113	禄口机场
+T119	Name 7152 7160	南通兴东国际机场
+T120	Name 7162 7170	南通兴东国际机场
+T121	Name 7171 7209	Nantong Xingdong International Airport
+T122	Position 7232 7243	中国江苏省南通市通州区
+T123	Evaluate 7259 7268	4E级民用国际机场
+T124	Evaluate 7270 7281	江苏最早通航的民用机场
+T125	Evaluate 7284 7296	上海国际航空枢纽辅助机场
+*	Alias T120 T121
+R57	Located Arg1:T120 Arg2:T122	
+R58	Evaluate Arg1:T120 Arg2:T123	
+R59	Evaluate Arg1:T120 Arg2:T124	
+R60	Evaluate Arg1:T120 Arg2:T125	
+T126	Name 7307 7315	南通兴东国际机场
+T127	Name 7335 7341	南通兴东机场
+T128	Name 7355 7363	南通兴东国际机场
+T129	Name 7423 7431	南通兴东国际机场
+T130	Facilities 7435 7438	航站楼
+T131	Facilities 7476 7478	跑道
+T132	Facilities 7490 7493	停机位
+R61	HaveFac Arg1:T129 Arg2:T130	
+R62	HaveFac Arg1:T129 Arg2:T131	
+R63	HaveFac Arg1:T129 Arg2:T132	
+T133	Name 7550 7558	南通兴东国际机场
+T134	Name 7656 7664	苏南硕放国际机场
+T135	Name 7666 7674	苏南硕放国际机场
+T136	Name 7675 7711	Sunan Shuofang International Airport
+*	Alias T135 T136 T137
+T137	Name 7738 7746	无锡硕放国际机场
+T138	Position 7750 7761	中国江苏省无锡市新吴区
+R64	Located Arg1:T137 Arg2:T138	
+T139	Evaluate 7805 7816	4E级军民合用国际机场
+R65	Evaluate Arg1:T137 Arg2:T139	
+T140	Name 8016 8024	苏南硕放国际机场
+T141	Facilities 8028 8031	航站楼
+T142	Facilities 8067 8069	跑道
+R66	HaveFac Arg1:T140 Arg2:T141	
+R67	HaveFac Arg1:T140 Arg2:T142	
+T143	Facilities 8094 8097	货运区
+T144	Facilities 8081 8084	停机位
+R68	HaveFac Arg1:T140 Arg2:T144	
+R69	HaveFac Arg1:T140 Arg2:T143	
+T145	Name 8358 8366	苏南硕放国际机场
+T146	Company 8380 8386	中国东方航空
+T147	Company 8387 8391	深圳航空
+T148	Company 8392 8396	吉祥航空
+R70	HavCom Arg1:T145 Arg2:T146	
+R71	HavCom Arg1:T145 Arg2:T147	
+R72	HavCom Arg1:T145 Arg2:T148	
+T149	Name 8429 8437	苏南硕放国际机场
+T150	Name 8481 8489	常州奔牛国际机场
+T151	Name 8491 8499	常州奔牛国际机场
+T152	Position 8561 8582	中国江苏省常州市新北区和镇江市丹阳市交界处
+T153	Evaluate 8595 8606	4E级军民合用运输机场
+T154	Name 8500 8538	Changzhou Benniu International Airport
+*	Alias T151 T154
+R73	Located Arg1:T151 Arg2:T152	
+R74	Evaluate Arg1:T151 Arg2:T153	
+T155	Name 8614 8622	常州奔牛国际机场
+T156	Name 8647 8653	常州奔牛机场
+T157	Name 8667 8675	常州奔牛国际机场
+T158	Name 8734 8742	常州奔牛国际机场
+T159	Facilities 8746 8749	航站楼
+T160	Facilities 8779 8781	跑道
+T161	Facilities 8793 8796	停机坪
+R75	HaveFac Arg1:T158 Arg2:T159	
+R76	HaveFac Arg1:T158 Arg2:T160	
+R77	HaveFac Arg1:T158 Arg2:T161	
+T162	Name 8852 8860	常州奔牛国际机场
+T163	Name 8889 8897	常州奔牛国际机场
+T164	Name 9005 9013	常州奔牛国际机场
+T165	Company 9023 9029	中国东方航空
+R78	HavCom Arg1:T164 Arg2:T165	
+T166	Name 9088 9096	徐州观音国际机场
+T167	Name 9078 9086	徐州观音国际机场
+T168	Position 9156 9168	江苏省徐州市睢宁县双沟镇
+T169	Evaluate 9181 9190	4E级民用国际机场
+T170	Evaluate 9192 9208	徐州都市圈和淮海经济区的中心机场
+R79	Located Arg1:T166 Arg2:T168	
+R80	Evaluate Arg1:T166 Arg2:T169	
+R81	Evaluate Arg1:T166 Arg2:T170	
+T171	Name 9097 9133	Xuzhou Guanyin International Airport
+*	Alias T166 T171
+T172	Name 9216 9224	徐州观音国际机场
+T173	Name 9246 9252	徐州观音机场
+*	Alias T172 T173
+T174	Name 9271 9279	徐州观音国际机场
+T175	Name 9321 9329	徐州观音国际机场
+T176	Facilities 9331 9336	两座航站楼
+T177	Facilities 9370 9372	跑道
+R82	HaveFac Arg1:T175 Arg2:T176	
+R83	HaveFac Arg1:T175 Arg2:T177	
+T178	Name 9460 9468	徐州观音国际机场
+T179	Name 9576 9584	徐州观音国际机场
+T180	Company 9596 9600	祥鹏航空
+T181	Company 9607 9611	桂林航空
+R84	HavCom Arg1:T179 Arg2:T180	
+R85	HavCom Arg1:T179 Arg2:T181	
+T182	Name 9629 9637	徐州观音国际机场
+T183	Name 9679 9687	盐城南洋国际机场
+T184	Name 9689 9697	盐城南洋国际机场
+T185	Position 9759 9775	中国江苏省盐城市亭湖区南洋镇境内
+T186	Evaluate 9793 9806	4C级军民合用国际支线机场
+T187	Name 9698 9736	Yancheng Nanyang International Airport
+*	Alias T184 T187
+R86	Located Arg1:T184 Arg2:T185	
+R87	Evaluate Arg1:T184 Arg2:T186	
+T188	Name 9825 9829	盐城机场
+T189	Name 9879 9883	盐城机场
+T190	Name 9940 9946	盐城南洋机场
+T191	Name 9916 9922	盐城南洋机场
+T192	Name 9977 9985	盐城南洋国际机场
+T193	Name 10010 10018	盐城南洋国际机场
+T194	Facilities 10027 10032	T1航站楼
+T195	Facilities 10043 10048	T2航站楼
+T196	Facilities 10059 10063	民航站坪
+T197	Facilities 10072 10074	跑道
+T198	Name 10100 10108	盐城南洋国际机场
+R88	HaveFac Arg1:T193 Arg2:T194	
+R89	HaveFac Arg1:T193 Arg2:T195	
+R90	HaveFac Arg1:T193 Arg2:T196	
+R91	HaveFac Arg1:T193 Arg2:T197	
+T199	Name 10177 10185	盐城南洋国际机场
+T200	Name 10246 10254	连云港白塔埠机场
+T201	Name 10260 10270	连云港白塔埠国际机场
+T202	Name 10273 10281	连云港白塔埠机场
+*	Alias T201 T202
+T203	Name 10283 10291	连云港白塔埠机场
+T204	Position 10345 10363	中国江苏省连云港市东海县白塔埠镇境内
+T205	Evaluate 10375 10386	4D级军民合用国际机场
+T206	Evaluate 10388 10415	江苏省地级市中第一个、中国沿海地区第八个开通民航的机场
+T207	Evaluate 10417 10455	中国第一座实现导航台共址、华东地区第一座应用PBN飞行程序的军民合用运输机场
+T208	Name 10292 10319	Lianyungang Baitabu Airport
+*	Alias T203 T208
+R92	Located Arg1:T203 Arg2:T204	
+R93	Evaluate Arg1:T203 Arg2:T205	
+R94	Evaluate Arg1:T203 Arg2:T206	
+R95	Evaluate Arg1:T203 Arg2:T207	
+T209	Name 10465 10473	连云港白塔埠机场
+T210	Name 10563 10571	连云港白塔埠机场
+T211	Name 10719 10727	连云港白塔埠机场
+T212	Name 10833 10841	连云港白塔埠机场
+T213	Name 10867 10875	连云港白塔埠机场
+T214	Facilities 10575 10578	候机楼
+R96	HaveFac Arg1:T210 Arg2:T214	
+T215	Facilities 10618 10620	跑道
+T216	Facilities 10623 10626	联络道
+R97	HaveFac Arg1:T210 Arg2:T215	
+R98	HaveFac Arg1:T210 Arg2:T216	
+T217	Name 10887 10895	杭州萧山国际机场
+T218	Name 10897 10905	杭州萧山国际机场
+T219	Position 10959 10968	浙江省杭州市萧山区
+T220	Evaluate 10979 10988	4F级民用运输机场
+T221	Evaluate 10990 11001	中国十二大干线机场之一
+T222	Evaluate 11002 11010	国际定期航班机场
+T223	Evaluate 11011 11031	对外开放的一类航空口岸和国际航班备降机场
+R99	Located Arg1:T218 Arg2:T219	
+R100	Evaluate Arg1:T218 Arg2:T220	
+R101	Evaluate Arg1:T218 Arg2:T221	
+R102	Evaluate Arg1:T218 Arg2:T222	
+R103	Evaluate Arg1:T218 Arg2:T223	
+T224	Name 10906 10936	Hangzhou International Airport
+*	Alias T218 T224
+T225	Name 11076 11084	杭州萧山国际机场
+T226	Facilities 11204 11207	航站楼
+T227	Facilities 11250 11252	跑道
+T228	Facilities 11287 11292	客机停机坪
+T229	Facilities 11307 11312	货机停机坪
+T230	Name 11537 11541	萧山机场
+T231	Name 11563 11571	杭州萧山国际机场
+T232	Name 11601 11609	杭州萧山国际机场
+T233	Facilities 11670 11672	跑道
+R104	HaveFac Arg1:T232 Arg2:T233	
+T234	Facilities 11741 11746	平行滑行道
+T235	Facilities 11803 11809	近进灯光系统
+R105	HaveFac Arg1:T232 Arg2:T234	
+R106	HaveFac Arg1:T232 Arg2:T235	
+T236	Facilities 11858 11862	助航系统
+T237	Name 11919 11927	杭州萧山国际机场
+T238	Name 12033 12041	杭州萧山国际机场
+T239	Name 12231 12239	宁波栎社国际机场
+T240	Name 12241 12249	宁波栎社国际机场
+T241	Position 12307 12323	中国浙江宁波海曙区石碶街道栎社村
+T242	Evaluate 12334 12341	4E级民用机场
+T243	Name 12250 12284	Ningbo Lishe International Airport
+*	Alias T240 T243
+R107	Located Arg1:T240 Arg2:T241	
+R108	Evaluate Arg1:T240 Arg2:T242	
+T244	Name 12351 12359	宁波栎社国际机场
+T245	Name 12394 12400	宁波栎社机场
+T246	Name 12424 12432	宁波栎社国际机场
+*	Alias T244 T245
+T247	Name 12489 12497	宁波栎社国际机场
+T248	Facilities 12497 12500	航站楼
+T249	Facilities 12513 12517	民航站坪
+T250	Facilities 12534 12536	跑道
+T251	Facilities 12548 12554	机场地下车库
+T252	Facilities 12564 12569	地面停车场
+R109	HaveFac Arg1:T247 Arg2:T248	
+R110	HaveFac Arg1:T247 Arg2:T249	
+R111	HaveFac Arg1:T247 Arg2:T250	
+R112	HaveFac Arg1:T247 Arg2:T251	
+R113	HaveFac Arg1:T247 Arg2:T252	
+T253	Name 12642 12650	宁波栎社国际机场
+T254	Name 12603 12611	宁波栎社国际机场
+T255	Name 12768 12776	宁波栎社国际机场
+T256	Name 12855 12863	温州龙湾国际机场
+T257	Name 12869 12877	温州永强国际机场
+T258	Name 12880 12888	温州龙湾国际机场
+T259	Name 12890 12898	温州龙湾国际机场
+T260	Position 12959 12970	中国浙江省温州市龙湾区
+T261	Name 12899 12936	Wenzhou Longwan International Airport
+*	Alias T259 T261
+*	Alias T257 T258
+R114	Located Arg1:T259 Arg2:T260	
+T262	Evaluate 12987 12996	4E级民用国际机场
+T263	Evaluate 12998 13006	国家一类航空口岸
+T264	Evaluate 13007 13017	中国国内二类民用机场
+R115	Evaluate Arg1:T259 Arg2:T264	
+R116	Evaluate Arg1:T259 Arg2:T262	
+R117	Evaluate Arg1:T259 Arg2:T263	
+T265	Name 13025 13033	温州龙湾国际机场
+T266	Name 13036 13042	温州永强机场
+*	Alias T265 T266
+T267	Name 13141 13149	温州龙湾国际机场
+T268	Facilities 13153 13156	航站楼
+T269	Facilities 13189 13192	停机坪
+T270	Facilities 13229 13231	跑道
+R118	HaveFac Arg1:T267 Arg2:T268	
+R119	HaveFac Arg1:T267 Arg2:T269	
+R120	HaveFac Arg1:T267 Arg2:T270	
+T271	Name 13342 13350	温州龙湾国际机场
+T272	Name 13450 13454	温州机场
+T273	Name 13494 13498	温州机场
+T274	Name 13584 13592	温州龙湾国际机场
+T275	Company 13703 13709	中国国际航空
+T276	Company 13717 13721	东方航空
+T277	Company 13722 13726	南方航空
+T278	Company 13727 13731	上海航空
+T279	Company 13732 13736	重庆航空
+T280	Name 13745 13752	舟山普陀山机场
+T281	Name 13754 13761	舟山普陀山机场
+T282	Position 13811 13823	中国浙江省舟山市朱家尖岛
+T283	Name 13762 13788	Zhoushan Putuoshan Airport
+T284	Evaluate 13837 13846	4D级民用运输机场
+*	Alias T281 T283
+R121	Located Arg1:T281 Arg2:T282	
+R122	Evaluate Arg1:T281 Arg2:T284	
+T285	Name 13898 13905	舟山普陀山机场
+T286	Name 13855 13862	舟山普陀山机场
+T287	Name 13880 13887	舟山朱家尖机场
+T288	Name 13932 13939	舟山普陀山机场
+T289	Facilities 13956 13963	中式风格航站楼
+R123	HaveFac Arg1:T288 Arg2:T289	
+T290	Facilities 14005 14007	跑道
+T291	Facilities 14019 14022	停机坪
+R124	HaveFac Arg1:T288 Arg2:T290	
+R125	HaveFac Arg1:T288 Arg2:T291	
+T292	Name 14128 14135	舟山普陀山机场
+T293	Name 14276 14282	台州路桥机场
+T294	Name 14288 14294	黄岩路桥机场
+T295	Name 14297 14303	台州路桥机场
+*	Alias T294 T295
+T296	Name 14305 14311	台州路桥机场
+T297	Name 14312 14334	Taizhou Luqiao Airport
+*	Alias T296 T297
+T298	Position 14359 14389	中国浙江省台州市路桥区机场路、东迎宾大道交叉口和椒江区交界处
+T299	Evaluate 14414 14428	4C级海军航空兵军民合用机场
+R126	Located Arg1:T296 Arg2:T298	
+R127	Evaluate Arg1:T296 Arg2:T299	
+T300	Name 14447 14451	黄岩机场
+T301	Name 14474 14480	黄岩路桥机场
+T302	Name 14501 14507	黄岩路桥机场
+T303	Name 14513 14519	台州路桥机场
+*	Alias T302 T303
+T304	Name 14552 14558	台州路桥机场
+T305	Facilities 14558 14561	航站楼
+R128	HaveFac Arg1:T304 Arg2:T305	
+T306	Name 14578 14582	民航站坪
+T307	Name 14590 14592	跑道
+*	Alias T304 T306 T307
+T308	Name 14640 14646	台州路桥机场
+T309	Name 14762 14768	台州路桥机场
+T310	Company 14769 14773	重庆航空
+T311	Company 14774 14780	中国南方航空
+R129	HavCom Arg1:T309 Arg2:T310	
+R130	HavCom Arg1:T309 Arg2:T311	
+T312	Name 14864 14868	衢州机场
+T313	Name 14870 14874	衢州机场
+T314	Name 14875 14889	Quzhou Airport
+T315	Position 14913 14939	中国浙江省衢州市柯城区信安街道民航大道与衢江区交界处
+T316	Evaluate 14951 14962	4C级军民合用支线机场
+T317	Name 14977 14981	衢州机场
+*	Alias T313 T314
+R131	Located Arg1:T313 Arg2:T315	
+R132	Evaluate Arg1:T313 Arg2:T316	
+T318	Name 15025 15029	衢州机场
+T319	Name 15050 15054	衢州机场
+T320	Name 15080 15084	衢州机场
+T321	Facilities 15084 15087	航站楼
+T322	Facilities 15098 15102	民航站坪
+T323	Facilities 15110 15112	跑道
+R133	HaveFac Arg1:T320 Arg2:T321	
+R134	HaveFac Arg1:T320 Arg2:T322	
+R135	HaveFac Arg1:T320 Arg2:T323	
+T324	Name 15164 15168	衢州机场
+T325	Name 15284 15288	衢州机场
+T326	Company 15289 15293	衢州航空
+T327	Company 15302 15306	华夏航空
+R136	HavCom Arg1:T325 Arg2:T326	
+R137	HavCom Arg1:T325 Arg2:T327	
+T328	Name 15383 15387	义乌机场
+T329	Name 15389 15393	义乌机场
+T330	Name 15394 15406	Yiwu Airport
+*	Alias T329 T330
+T331	Position 15429 15440	中国浙江省金华市义乌市
+T332	Evaluate 15453 15464	4D级军民合用运输机场
+T333	Evaluate 15467 15481	浙江省中西部地区最大的航空港
+T334	Evaluate 15482 15494	华东地区首座县级民航机场
+R138	Located Arg1:T329 Arg2:T331	
+R139	Evaluate Arg1:T329 Arg2:T332	
+R140	Evaluate Arg1:T329 Arg2:T333	
+R141	Evaluate Arg1:T329 Arg2:T334	
+T335	Name 15502 15506	义乌机场
+T336	Name 15524 15528	义乌机场
+T337	Name 15611 15615	义乌机场
+T338	Facilities 15619 15622	航站楼
+T339	Facilities 15659 15661	跑道
+R142	HaveFac Arg1:T337 Arg2:T338	
+R143	HaveFac Arg1:T337 Arg2:T339	
+T340	Name 15732 15736	义乌机场
+T341	Name 15853 15857	义乌机场
+T342	Name 15934 15942	济南遥墙国际机场
+T343	Name 15944 15952	济南遥墙国际机场
+T344	Position 16012 16030	中国山东省济南市历城区和章丘区交界处
+T345	Evaluate 16041 16050	4E级民用国际机场
+T346	Evaluate 16052 16068	中国重要的入境门户和干线机场之一
+R144	Located Arg1:T343 Arg2:T344	
+R145	Evaluate Arg1:T343 Arg2:T345	
+R146	Evaluate Arg1:T343 Arg2:T346	
+T347	Name 15953 15989	Jinan Yaoqiang International Airport
+*	Alias T343 T347
+T348	Name 16076 16084	济南遥墙国际机场
+T349	Name 16175 16183	济南遥墙国际机场
+T350	Name 16321 16329	济南遥墙国际机场
+T351	Name 16384 16392	济南遥墙国际机场
+T352	Company 16406 16410	山东航空
+T353	Company 16411 16417	中国东方航空
+T354	Company 16418 16422	深圳航空
+R147	HavCom Arg1:T351 Arg2:T352	
+R148	HavCom Arg1:T351 Arg2:T353	
+R149	HavCom Arg1:T351 Arg2:T354	
+T355	Name 16442 16448	济南国际机场
+T356	Name 16485 16493	青岛流亭国际机场
+T357	Name 16495 16503	青岛流亭国际机场
+T358	Position 16564 16579	中国山东省青岛市城阳区流亭街道
+T359	Evaluate 16593 16602	4E级民用国际机场
+T360	Evaluate 16604 16615	中国十二大干线机场之一
+T361	Name 16504 16541	Qingdao Liuting International Airport
+*	Alias T357 T361
+R150	Located Arg1:T357 Arg2:T358	
+R151	Evaluate Arg1:T357 Arg2:T359	
+R152	Evaluate Arg1:T357 Arg2:T360	
+T362	Name 16625 16633	青岛流亭国际机场
+T363	Name 16725 16733	青岛流亭国际机场
+T364	Facilities 16737 16740	航站楼
+T365	Facilities 16773 16775	跑道
+T366	Facilities 16788 16793	1号航站楼
+R153	HaveFac Arg1:T363 Arg2:T364	
+R154	HaveFac Arg1:T363 Arg2:T365	
+R155	HaveFac Arg1:T363 Arg2:T366	
+T367	Name 16879 16887	青岛流亭国际机场
+T368	Name 16977 16985	青岛胶东国际机场
+T369	Name 17033 17041	青岛流亭国际机场
+T370	Name 17074 17082	青岛流亭国际机场
+T371	Company 17084 17090	中国国际航空
+T372	Company 17091 17097	中国东方航空
+T373	Company 17098 17104	中国南方航空
+T374	Company 17105 17109	汉莎航空
+T375	Company 17110 17114	大韩航空
+T376	Company 17115 17119	韩亚航空
+T377	Company 17120 17125	全日空航空
+T378	Company 17126 17130	港龙航空
+T379	Company 17131 17136	UPS公司
+R156	HavCom Arg1:T370 Arg2:T371	
+R157	HavCom Arg1:T370 Arg2:T372	
+R158	HavCom Arg1:T370 Arg2:T373	
+R159	HavCom Arg1:T370 Arg2:T374	
+R160	HavCom Arg1:T370 Arg2:T375	
+R161	HavCom Arg1:T370 Arg2:T377	
+R162	HavCom Arg1:T370 Arg2:T378	
+R163	HavCom Arg1:T370 Arg2:T379	
+T380	Name 17187 17196	威海大水泊国际机场
+T381	Name 17198 17207	威海大水泊国际机场
+T382	Position 17269 17277	中国山东省威海市
+T383	Evaluate 17296 17305	4D级军民合用机场
+T384	Name 17208 17245	Weihai Dashuibo International Airport
+*	Alias T381 T384
+R164	Located Arg1:T381 Arg2:T382	
+R165	Evaluate Arg1:T381 Arg2:T383	
+T385	Name 17316 17323	威海大水泊机场
+T386	Name 17340 17347	威海大水泊机场
+T387	Name 17367 17374	威海大水泊机场
+T388	Name 17387 17396	威海大水泊国际机场
+T389	Name 17420 17429	威海大水泊国际机场
+T390	Facilities 17430 17432	跑道
+T391	Facilities 17438 17441	停机坪
+T392	Facilities 17453 17456	航站楼
+T393	Facilities 17464 17467	航管楼
+R166	HaveFac Arg1:T389 Arg2:T390	
+T394	Name 17536 17545	威海大水泊国际机场
+T395	Name 17655 17664	威海大水泊国际机场
+T396	Name 17690 17698	烟台蓬莱国际机场
+T397	Name 17700 17708	烟台蓬莱国际机场
+T398	Position 17768 17782	中国山东省烟台市蓬莱区潮水镇
+T399	Name 17709 17745	Yantai Penglai International Airport
+T400	Evaluate 17796 17805	4E级民用运输机场
+T401	Evaluate 17807 17815	国家一类航空口岸
+T402	Evaluate 17822 17829	华东机场群成员
+*	Alias T397 T399
+R167	Located Arg1:T397 Arg2:T398	
+T403	Name 17838 17846	烟台蓬莱国际机场
+T404	Facilities 17909 17911	机场
+T405	Facilities 17916 17921	国际候机楼
+T406	Facilities 17929 17932	停机坪
+R168	HaveFac Arg1:T403 Arg2:T404	
+R169	HaveFac Arg1:T403 Arg2:T405	
+R170	HaveFac Arg1:T403 Arg2:T406	
+T407	Name 17992 18000	烟台蓬莱国际机场
+T408	Name 18116 18124	烟台蓬莱国际机场
+T409	Name 18149 18157	烟台蓬莱国际机场
+T410	Name 18200 18206	临沂启阳机场
+T411	Position 18258 18269	中国山东省临沂市河东区
+T412	Evaluate 18283 18290	4D级民用机场
+T413	Evaluate 18292 18304	山东省第一个民用航空机场
+T414	Name 18208 18214	临沂启阳机场
+T415	Name 18215 18235	LINYI QIYANG AIRPORT
+*	Alias T414 T415
+R171	Located Arg1:T414 Arg2:T411	
+R172	Evaluate Arg1:T414 Arg2:T412	
+R173	Evaluate Arg1:T414 Arg2:T413	
+T416	Name 18427 18433	临沂启阳机场
+T417	Facilities 18476 18478	跑道
+T418	Facilities 18490 18493	停机坪
+R174	HaveFac Arg1:T416 Arg2:T417	
+R175	HaveFac Arg1:T416 Arg2:T418	
+T419	Name 18735 18741	临沂启阳机场
+T420	Name 18792 18798	潍坊南苑机场
+T421	Name 18800 18806	潍坊南苑机场
+T422	Position 18853 18874	中国山东省潍坊市奎文区机场路（南苑街）1号
+T423	Evaluate 18887 18898	4D级军民合用支线机场
+R176	Located Arg1:T421 Arg2:T422	
+R177	Evaluate Arg1:T421 Arg2:T423	
+T424	Name 18807 18830	Weifang Nanyuan Airport
+T425	Name 18917 18923	潍坊南苑机场
+T426	Name 18947 18953	潍坊南苑机场
+T427	Name 18974 18980	潍坊南苑机场
+T428	Name 19011 19017	潍坊南苑机场
+T429	Facilities 19017 19020	航站楼
+R178	HaveFac Arg1:T428 Arg2:T429	
+T430	Facilities 19039 19043	民航站坪
+T431	Facilities 19077 19079	跑道
+R179	HaveFac Arg1:T428 Arg2:T430	
+R180	HaveFac Arg1:T428 Arg2:T431	
+T432	Name 19130 19136	潍坊南苑机场
+T433	Name 19276 19282	潍坊南苑机场
+T434	Name 19338 19344	东营胜利机场
+T435	Name 19350 19356	东营永安机场
+T436	Name 19359 19365	东营胜利机场
+T437	Name 19367 19373	东营胜利机场
+T438	Position 19421 19436	中国山东省东营市垦利区商飞大道
+T439	Evaluate 19457 19468	4D级中国国内支线机场
+T440	Evaluate 19469 19481	中国商飞东营民机试飞基地
+R181	Located Arg1:T437 Arg2:T438	
+R182	Evaluate Arg1:T437 Arg2:T439	
+R183	Evaluate Arg1:T437 Arg2:T440	
+T441	Name 19374 19398	Dongying Shengli Airport
+*	Alias T437 T441
+T442	Name 19504 19510	东营永安机场
+T443	Name 19531 19537	东营胜利机场
+T444	Name 19548 19554	东营胜利机场
+T445	Name 19585 19591	东营胜利机场
+T446	Facilities 19591 19594	航站楼
+T447	Facilities 19613 19616	站坪设
+T448	Facilities 19644 19646	跑道
+R184	HaveFac Arg1:T445 Arg2:T446	
+R185	HaveFac Arg1:T445 Arg2:T447	
+R186	HaveFac Arg1:T445 Arg2:T448	
+T449	Name 19679 19685	东营胜利机场
+T450	Name 19828 19834	东营胜利机场
+T451	Name 19868 19874	济宁曲阜机场
+T452	Name 19880 19884	济宁机场
+T453	Name 19887 19893	济宁曲阜机场
+T454	Position 19944 19961	中国山东省济宁市嘉祥县纸坊镇机场路
+T455	Name 19895 19901	济宁曲阜机场
+T456	Evaluate 19976 19987	4C级军民合用支线机场
+T457	Name 20046 20052	济宁曲阜机场
+T458	Name 20084 20090	济宁曲阜机场
+T459	Facilities 20090 20093	航站楼
+T460	Facilities 20111 20115	民航站坪
+T461	Facilities 20131 20133	跑道
+R187	HaveFac Arg1:T458 Arg2:T459	
+R188	HaveFac Arg1:T458 Arg2:T460	
+R189	HaveFac Arg1:T458 Arg2:T461	
+R190	Located Arg1:T455 Arg2:T454	
+R191	Evaluate Arg1:T455 Arg2:T456	
+T462	Name 19902 19921	Jining Qufu Airport
+*	Alias T455 T462
+*	Alias T452 T453
+T463	Name 20186 20192	济宁曲阜机场
+T464	Name 20336 20342	济宁曲阜机场
+T465	Name 20374 20382	福州长乐国际机场
+T466	Name 20384 20392	福州长乐国际机场
+T467	Name 20393 20429	Fuzhou Changle International Airport
+T468	Name 20452 20456	福州机场
+*	Alias T466 T467 T468
+T469	Position 20459 20470	中国福建省福州市长乐区
+R192	Located Arg1:T466 Arg2:T469	
+T470	Evaluate 20484 20493	4E级民用国际机场
+T471	Evaluate 20494 20500	区域枢纽机场
+R193	Evaluate Arg1:T466 Arg2:T470	
+R194	Evaluate Arg1:T466 Arg2:T471	
+T472	Evaluate 20507 20521	“海上丝绸之路”门户枢纽机场
+T473	Evaluate 20528 20535	华东机场群成员
+R195	Evaluate Arg1:T466 Arg2:T472	
+R196	Evaluate Arg1:T466 Arg2:T473	
+T474	Name 20555 20563	福州长乐国际机场
+T475	Name 20579 20587	福州长乐国际机场
+T476	Facilities 20588 20591	航站楼
+R197	HaveFac Arg1:T475 Arg2:T476	
+T477	Name 20646 20654	福州长乐国际机场
+T478	Name 20772 20780	福州长乐国际机场
+T479	Name 20959 20967	厦门高崎国际机场
+T480	Name 20969 20977	厦门高崎国际机场
+T481	Position 21035 21046	中国福建省厦门市湖里区
+T482	Evaluate 21048 21057	4E级民用国际机场
+T483	Evaluate 21059 21075	中国东南沿海重要的区域性航空枢纽
+T484	Evaluate 21077 21088	中国十二大干线机场之一
+R198	Located Arg1:T480 Arg2:T481	
+R199	Evaluate Arg1:T480 Arg2:T482	
+R200	Evaluate Arg1:T480 Arg2:T483	
+R201	Evaluate Arg1:T480 Arg2:T484	
+T485	Name 20978 21012	Xiamen Gaoqi International Airport
+*	Alias T480 T485
+T486	Name 21096 21104	厦门高崎国际机场
+T487	Name 21201 21209	厦门高崎国际机场
+T488	Facilities 21218 21221	长跑道
+T489	Facilities 21224 21229	平行滑行道
+T490	Facilities 21233 21236	联络道
+T491	Facilities 21237 21240	停机坪
+T492	Facilities 21257 21260	候机楼
+R202	HaveFac Arg1:T487 Arg2:T488	
+R203	HaveFac Arg1:T487 Arg2:T489	
+R204	HaveFac Arg1:T487 Arg2:T490	
+R205	HaveFac Arg1:T487 Arg2:T491	
+R206	HaveFac Arg1:T487 Arg2:T492	
+T493	Name 21311 21319	厦门高崎国际机场
+T494	Name 21439 21447	厦门高崎国际机场
+T495	Name 21550 21558	泉州晋江国际机场
+T496	Name 21560 21568	泉州晋江国际机场
+T497	Position 21630 21638	中国福建省泉州市
+T498	Evaluate 21640 21645	4D级机场
+T499	Name 21569 21608	Quanzhou Jinjiang International Airport
+*	Alias T496 T499
+R207	Located Arg1:T496 Arg2:T497	
+R208	Evaluate Arg1:T496 Arg2:T498	
+T500	Name 21648 21656	泉州晋江国际机场
+T501	Name 21693 21701	泉州晋江国际机场
+T502	Name 21672 21676	晋江机场
+T503	Name 21715 21723	泉州晋江国际机场
+T504	Facilities 21735 21737	跑道
+T505	Facilities 21747 21751	平行滑道
+T506	Facilities 21759 21762	航站楼
+R209	HaveFac Arg1:T503 Arg2:T504	
+R210	HaveFac Arg1:T503 Arg2:T505	
+R211	HaveFac Arg1:T503 Arg2:T506	
+T507	Name 21899 21907	泉州晋江国际机场
+T508	Company 21911 21913	厦航
+T509	Company 21914 21916	深航
+T510	Company 21917 21919	川航
+T511	Company 21920 21922	顺丰
+R212	HavCom Arg1:T507 Arg2:T508	
+R213	HavCom Arg1:T507 Arg2:T509	
+R214	HavCom Arg1:T507 Arg2:T510	
+R215	HavCom Arg1:T507 Arg2:T511	
+T512	Name 21994 22001	龙岩冠豸山机场
+T513	Name 22003 22010	龙岩冠豸山机场
+T514	Name 22063 22070	连城冠豸山机场
+T515	Position 22074 22091	中国福建省龙岩市连城县江坊村连航路
+T516	Evaluate 22116 22127	4C级军民合用支线机场
+*	Alias T513 T514 T517
+R216	Located Arg1:T513 Arg2:T515	
+R217	Evaluate Arg1:T513 Arg2:T516	
+T517	Name 22011 22039	Longyan Guanzhaishan Airport
+T518	Name 22201 22208	龙岩冠豸山机场
+T519	Name 22223 22230	龙岩冠豸山机场
+T520	Name 22145 22151	空军连城机场
+T521	Name 22164 22170	空军连城机场
+T522	Name 22185 22191	空军连城机场
+T523	Name 22271 22278	龙岩冠豸山机场
+T524	Facilities 22291 22295	民航站坪
+T525	Facilities 22305 22307	跑道
+R218	HaveFac Arg1:T523 Arg2:T524	
+R219	HaveFac Arg1:T523 Arg2:T525	
+*	Alias T522 T518
+T526	Name 22379 22386	龙岩冠豸山机场
+T527	Name 22501 22508	龙岩冠豸山机场
+T528	Facilities 22508 22511	航站楼
+T529	Facilities 22512 22515	航管楼
+T530	Facilities 22527 22530	停机坪
+T531	Facilities 22548 22557	办公生活区工程建筑
+T532	Facilities 22567 22590	消防、货运仓库、供水供电、污水污物处理工程建筑
+R220	HaveFac Arg1:T527 Arg2:T528	
+R221	HaveFac Arg1:T527 Arg2:T529	
+R222	HaveFac Arg1:T527 Arg2:T530	
+R223	HaveFac Arg1:T527 Arg2:T531	
+R224	HaveFac Arg1:T527 Arg2:T532	
+T533	Name 22664 22671	龙岩冠豸山机场
+T534	Facilities 22671 22673	跑道
+T535	Facilities 22696 22712	无线电导航系统和目视助航灯光系统
+R225	HaveFac Arg1:T533 Arg2:T534	
+R226	HaveFac Arg1:T533 Arg2:T535	
+T536	Name 22759 22766	龙岩冠豸山机场
+T537	Position 22768 22785	中国福建省龙岩市连城县江坊村连航路
+R227	Located Arg1:T536 Arg2:T537	
+T538	Name 22877 22882	武夷山机场
+T539	Name 22884 22889	武夷山机场
+T540	Position 22929 22945	中国福建省南平市武夷山市武夷大道
+T541	Name 22890 22906	Wuyishan Airport
+*	Alias T539 T541
+R228	Located Arg1:T539 Arg2:T540	
+T542	Evaluate 22974 22985	4C级旅游干线国际机场
+T543	Evaluate 22986 22999	国家对外开放的一类航空口岸
+R229	Evaluate Arg1:T539 Arg2:T542	
+R230	Evaluate Arg1:T539 Arg2:T543	
+T544	Name 23083 23088	武夷山机场
+T545	Name 23110 23115	武夷山机场
+T546	Name 23039 23044	武夷山机场
+T547	Name 23059 23064	武夷山机场
+T548	Name 23167 23172	武夷山机场
+T549	Facilities 23172 23175	航站楼
+T550	Facilities 23216 23218	跑道
+R231	HaveFac Arg1:T548 Arg2:T549	
+R232	HaveFac Arg1:T548 Arg2:T550	
+T551	Name 23267 23272	武夷山机场
+T552	Name 23418 23423	武夷山机场
+T553	Name 23455 23463	南昌昌北国际机场
+T554	Name 23469 23475	南昌昌北机场
+T555	Name 23478 23486	南昌昌北国际机场
+T556	Name 23488 23496	南昌昌北国际机场
+T557	Name 23497 23536	Nanchang Changbei International Airport
+T558	Position 23559 23567	中国江西省南昌市
+T559	Evaluate 23580 23589	4E级民用运输机场
+T560	Name 23592 23598	南昌昌北机场
+T561	Name 23640 23646	南昌昌北机场
+T562	Name 23674 23682	南昌昌北国际机场
+T563	Name 23717 23725	南昌昌北国际机场
+T564	Facilities 23725 23730	T2航站楼
+R233	HaveFac Arg1:T563 Arg2:T564	
+T565	Name 23751 23759	南昌昌北国际机场
+T566	Name 23843 23847	南昌机场
+T567	Name 23972 23980	南昌昌北国际机场
+T568	Name 24032 24040	南昌昌北国际机场
+T569	Company 24041 24049	中国东方航空公司
+T570	Company 24050 24056	厦门航空公司
+T571	Company 24057 24061	江西航空
+R234	HavCom Arg1:T568 Arg2:T569	
+R235	HavCom Arg1:T568 Arg2:T570	
+R236	HavCom Arg1:T568 Arg2:T571	
+*	Alias T556 T557
+R237	Located Arg1:T556 Arg2:T558	
+R238	Evaluate Arg1:T556 Arg2:T559	
+T572	Name 24073 24079	赣州黄金机场
+T573	Name 24081 24087	赣州黄金机场
+T574	Position 24135 24152	中国江西省赣州市南康区凤岗镇峨眉村
+T575	Evaluate 24167 24174	4C级支线机场
+T576	Name 24088 24112	Ganzhou Huangjin Airport
+*	Alias T573 T576
+R239	Located Arg1:T573 Arg2:T574	
+R240	Evaluate Arg1:T573 Arg2:T575	
+T577	Name 24321 24327	赣州黄金机场
+T578	Facilities 24331 24334	航站楼
+T579	Facilities 24375 24379	民航站坪
+T580	Facilities 24387 24389	跑道
+R241	HaveFac Arg1:T577 Arg2:T578	
+R242	HaveFac Arg1:T577 Arg2:T579	
+R243	HaveFac Arg1:T577 Arg2:T580	
+T581	Name 24471 24477	赣州黄金机场
+T582	Name 24605 24611	赣州黄金机场
+T583	Name 24649 24655	九江庐山机场
+T584	Name 24711 24715	庐山机场
+T585	Name 24657 24663	九江庐山机场
+T586	Position 24719 24737	中国江西省九江市柴桑区黄老门乡机场路
+T587	Name 24664 24687	Jiujiang Lushan Airport
+*	Alias T585 T587 T584
+R244	Located Arg1:T585 Arg2:T586	
+T588	Evaluate 24782 24795	4C级军民合用旅游支线机场
+R245	Evaluate Arg1:T585 Arg2:T588	
+T589	Name 24867 24873	九江庐山机场
+T590	Name 24890 24896	九江庐山机场
+T591	Name 24947 24953	九江庐山机场
+T592	Facilities 24953 24956	航站楼
+T593	Facilities 24967 24971	民航站坪
+T594	Facilities 24980 24982	跑道
+R246	HaveFac Arg1:T591 Arg2:T592	
+R247	HaveFac Arg1:T591 Arg2:T593	
+R248	HaveFac Arg1:T591 Arg2:T594	
+T595	Name 25059 25065	九江庐山机场
+T596	Name 25194 25200	九江庐山机场
+T597	Name 25232 25239	景德镇罗家机场
+T598	Name 25241 25248	景德镇罗家机场
+T599	Position 25297 25319	中国江西省景德镇市浮梁县洪源镇罗家村金岭大道
+T600	Evaluate 25335 25346	中国国内4C级支线机场
+T601	Name 25249 25274	Jingdezhen Luojia Airport
+*	Alias T598 T601
+R249	Located Arg1:T598 Arg2:T599	
+R250	Evaluate Arg1:T598 Arg2:T600	
+T602	Name 25363 25370	景德镇罗家机场
+T603	Name 25394 25401	景德镇罗家机场
+T604	Name 25416 25423	景德镇罗家机场
+T605	Name 25453 25460	景德镇罗家机场
+T606	Facilities 25460 25463	航站楼
+T607	Facilities 25481 25483	站坪
+T608	Facilities 25490 25492	跑道
+R251	HaveFac Arg1:T605 Arg2:T606	
+R252	HaveFac Arg1:T605 Arg2:T607	
+R253	HaveFac Arg1:T605 Arg2:T608	
+T609	Name 25563 25570	景德镇罗家机场
+T610	Name 25696 25703	景德镇罗家机场
+T611	Name 25735 25740	井冈山机场
+T612	Name 25742 25747	井冈山机场
+T613	Name 25792 25796	吉安机场
+T614	Name 25748 25768	Jinggangshan Airport
+T615	Position 25799 25816	中国江西省吉安市泰和县螺溪镇井冈路
+T616	Evaluate 25850 25863	4C级军民合用旅游支线机场
+*	Alias T612 T614 T613
+R254	Located Arg1:T612 Arg2:T615	
+R255	Evaluate Arg1:T612 Arg2:T616	
+T617	Name 25872 25877	井冈山机场
+T618	Name 25971 25976	井冈山机场
+T619	Facilities 25976 25979	航站楼
+T620	Facilities 25998 26000	跑道
+T621	Facilities 25990 25992	站坪
+R256	HaveFac Arg1:T618 Arg2:T619	
+R257	HaveFac Arg1:T618 Arg2:T621	
+R258	HaveFac Arg1:T618 Arg2:T620	
+T622	Name 26070 26075	井冈山机场
+T623	Name 26202 26207	井冈山机场
+T624	Name 26245 26253	合肥骆岗国际机场
+T625	Name 26259 26265	合肥骆岗机场
+T626	Name 26268 26276	合肥骆岗国际机场
+T627	Name 26278 26286	合肥骆岗国际机场
+T628	Name 26309 26317	合肥骆岗通用机场
+T629	Name 26326 26334	合肥骆岗国际机场
+T630	Position 26338 26345	合肥的空港门户
+*	Alias T625 T626
+*	Alias T627 T628
+R259	Located Arg1:T629 Arg2:T630	
+T631	Name 26399 26407	合肥骆岗通用机场
+T632	Facilities 26426 26428	跑道
+R260	HaveFac Arg1:T631 Arg2:T632	
+T633	Evaluate 26430 26436	A类通用机场
+R261	Evaluate Arg1:T631 Arg2:T633	
+T634	Name 26444 26450	合肥骆岗机场
+T635	Facilities 26450 26452	跑道
+R262	HaveFac Arg1:T634 Arg2:T635	
+T636	Facilities 26483 26486	停机坪
+R263	HaveFac Arg1:T634 Arg2:T636	
+T637	Name 26558 26566	黄山屯溪国际机场
+T638	Name 26572 26578	黄山屯溪机场
+T639	Name 26581 26589	黄山屯溪国际机场
+*	Alias T638 T639
+T640	Name 26591 26599	黄山屯溪国际机场
+T641	Name 26600 26636	HuangshanTunxi International Airport
+*	Alias T640 T641
+T642	Position 26659 26670	中国安徽省黄山市屯溪区
+T643	Evaluate 26683 26692	4D级民用运输机场
+R264	Located Arg1:T640 Arg2:T642	
+R265	Evaluate Arg1:T640 Arg2:T643	
+T644	Name 26701 26709	黄山屯溪国际机场
+T645	Name 26724 26728	屯溪机场
+T646	Name 26737 26743	黄山屯溪机场
+T647	Name 26754 26762	黄山屯溪国际机场
+T648	Name 26862 26870	黄山屯溪国际机场
+T649	Facilities 26874 26877	航站楼
+T650	Facilities 26907 26909	跑道
+R266	HaveFac Arg1:T648 Arg2:T649	
+R267	HaveFac Arg1:T648 Arg2:T650	
+T651	Facilities 26921 26924	停机坪
+R268	HaveFac Arg1:T648 Arg2:T651	
+T652	Name 27016 27024	黄山屯溪国际机场
+T653	Company 27170 27174	国际航空
+T654	Company 27175 27179	东方航空
+T655	Company 27180 27184	南方航空
+T656	Company 27185 27189	首都航空
+T657	Company 27190 27194	青岛航空
+T658	Company 27195 27199	桂林航空
+T659	Company 27200 27204	瑞丽航空
+T660	Company 27205 27209	华夏航空
+T661	Company 27210 27214	长荣航空
+T662	Name 27222 27230	黄山屯溪国际机场
+R269	HavCom Arg1:T662 Arg2:T653	
+R270	HavCom Arg1:T662 Arg2:T654	
+R271	HavCom Arg1:T662 Arg2:T655	
+R272	HavCom Arg1:T662 Arg2:T656	
+R273	HavCom Arg1:T662 Arg2:T657	
+R274	HavCom Arg1:T662 Arg2:T658	
+R275	HavCom Arg1:T662 Arg2:T659	
+R276	HavCom Arg1:T662 Arg2:T660	
+R277	HavCom Arg1:T662 Arg2:T661	
+T663	Name 27380 27384	黄山机场
+T664	Name 27327 27335	黄山屯溪国际机场
+T665	Name 27304 27308	黄山机场
+T666	Name 27412 27419	安庆天柱山机场
+T667	Name 27421 27428	安庆天柱山机场
+T668	Position 27478 27492	中国安徽省安庆市宜秀区象山村
+T669	Evaluate 27505 27520	4C级中国国内军民合用支线机场
+T670	Name 27429 27455	Anqing Tianzhushan Airport
+*	Alias T667 T670
+R278	Located Arg1:T667 Arg2:T668	
+R279	Evaluate Arg1:T667 Arg2:T669	
+T671	Name 27535 27539	安庆机场
+T672	Name 27569 27573	安庆机场
+T673	Name 27578 27585	安庆天柱山机场
+*	Alias T672 T673
+T674	Name 27597 27604	安庆天柱山机场
+T675	Name 27635 27642	安庆天柱山机场
+T676	Facilities 27642 27645	航站楼
+T677	Facilities 27663 27665	站坪
+T678	Facilities 27687 27689	跑道
+R280	HaveFac Arg1:T675 Arg2:T676	
+R281	HaveFac Arg1:T675 Arg2:T677	
+R282	HaveFac Arg1:T675 Arg2:T678	
+T679	Name 27742 27749	安庆天柱山机场
+T680	Name 27875 27882	安庆天柱山机场
+T681	Name 27914 27920	阜阳西关机场
+T682	Name 27922 27928	阜阳西关机场
+T683	Name 27974 27978	阜阳机场
+T684	Position 27982 28000	中国安徽省阜阳市颍州区颍西街道机场路
+T685	Evaluate 28011 28020	4C级国内支线机场
+T686	Evaluate 28021 28030	区域性航空货运基地
+T687	Name 28048 28054	阜阳西关机场
+T688	Name 28071 28077	阜阳西关机场
+T689	Name 28099 28105	阜阳西关机场
+R283	Located Arg1:T683 Arg2:T684	
+R284	Evaluate Arg1:T683 Arg2:T685	
+R285	Evaluate Arg1:T683 Arg2:T686	
+T690	Name 27929 27950	Fuyang Xiguan Airport
+*	Alias T682 T690 T683
+T691	Name 28152 28158	阜阳西关机场
+T692	Facilities 28158 28161	航站楼
+T693	Facilities 28184 28188	民航站坪
+T694	Facilities 28206 28208	跑道
+R286	HaveFac Arg1:T691 Arg2:T692	
+R287	HaveFac Arg1:T691 Arg2:T693	
+R288	HaveFac Arg1:T691 Arg2:T694	
+T695	Name 28259 28265	阜阳西关机场
+T696	Name 28384 28390	阜阳西关机场
+T697	Name 28431 28437	阜阳西关机场
